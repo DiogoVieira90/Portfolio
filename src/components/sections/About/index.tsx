@@ -10,10 +10,14 @@ export function About() {
         <AboutName>Diogo Vieira</AboutName>
         <AboutRole>Web Developer</AboutRole>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet, consectetur<br />
+          Desenvolvedor web com conhecimento em React,<br />
+          TypeScript e design. Sou um pessoa detalhista<br />
+          que cria soluções personalizadas e elegantes<br />
+          com equilíbrio entre funcionalidade e estética.
+          {/* Lorem ipsum dolor sit amet, consectetur<br />
           adipiscing elit. Suspendisse scelerisque<br />
           aliquet odio facilisis consequat. Nulla<br />
-          facilisi. Suspendisse mauris diam, varius quis
+          facilisi. Suspendisse mauris diam, varius quis */}
         </AboutParagraph>
       </AboutTextContainer>
     </SectionAboutContainer>

@@ -20,6 +20,17 @@ export function Contact() {
     },
   ]
 
+  function handleClick(rede: string) {
+    switch (rede) {
+      case "Github":
+
+        break;
+
+      default:
+        break;
+    }
+  }
+
   return (
     <SectionContactContainer id="contact">
       <Title>CONTACT</Title>
