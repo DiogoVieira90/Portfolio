@@ -74,6 +74,7 @@ export const DivEffect = styled.div`
 export const IconTitle = styled.span`
   font-family: 'Audiowide', cursive;
   color: #FFF;
+  text-align: center;
   font-size: 3rem;
   position: absolute;
 `

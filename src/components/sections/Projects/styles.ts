@@ -13,6 +13,32 @@ export const SectionProjectsContainer = styled.section`
   gap: 3.2rem;
   position: relative;
 
+  & div.shadow {
+    position: relative;
+    height: 76%;
+    display: flex;
+
+    span.shadowTop {
+      position: absolute;
+      top: 0;
+      z-index: 10;
+      width: 95%;
+      height: 20px;
+      background-image: linear-gradient(180deg, #000000 0%, #073AFF00 100%);
+      pointer-events: none;
+    }
+
+    span.shadowBottom {
+      position: absolute;
+      bottom: 0;
+      z-index: 10;
+      width: 95%;
+      height: 20px;
+      background-image: linear-gradient(0deg, #000000 0%, #073AFF00 100%);
+      pointer-events: none;
+    }
+  }
+
 `
 
 export const ProjectsContainer = styled.div`
@@ -23,6 +49,7 @@ export const ProjectsContainer = styled.div`
   position: relative;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 4.2rem;
+  
 
 
 

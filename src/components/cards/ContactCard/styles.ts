@@ -18,15 +18,22 @@ export const CardContainer = styled.div`
   inset: 0;
   border-radius: 8px; 
   padding: 2px; 
-  background: linear-gradient(90deg, #00E5FF 0%, #3253FF 100%); 
+  background: linear-gradient(90deg, #00E5FF 0%, #3253FF 50%, #00E5FF 100%);; 
   -webkit-mask: 
   linear-gradient(#fff 0 0) content-box, 
   linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+  animation: bgParallax infinite 4s linear;
 }
   :hover {
     transform: scale(1.1);
+  }
+
+  @keyframes bgParallax {
+    100% {
+      background-position: 220px;
+    }
   }
 `
 
