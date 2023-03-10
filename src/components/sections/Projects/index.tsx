@@ -14,7 +14,7 @@ interface ReposProps {
 import { Separator } from "../../Separator";
 import { useCallback, useEffect, useState } from "react";
 
-export function Projects({ name, default_branch, html_url, homepage }: ReposProps) {
+export function Projects() {
 
   const [repos, setRepos] = useState<ReposProps[]>([])
 
