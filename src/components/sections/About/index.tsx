@@ -11,7 +11,7 @@ export function About() {
         <AboutRole>Web Developer</AboutRole>
         <AboutParagraph>
           Desenvolvedor web com conhecimento em React,<br />
-          TypeScript e design. Sou um pessoa detalhista<br />
+          TypeScript e design. Sou uma pessoa detalhista<br />
           que cria soluções personalizadas e elegantes<br />
           com equilíbrio entre funcionalidade e estética.
           {/* Lorem ipsum dolor sit amet, consectetur<br />
