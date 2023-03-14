@@ -18,7 +18,7 @@ export const CardContainer = styled.div`
   inset: 0;
   border-radius: 8px; 
   padding: 2px; 
-  background: linear-gradient(90deg, #00E5FF 0%, #3253FF 50%, #00E5FF 100%);; 
+  background: linear-gradient(90deg, #00E5FF 0%, #3253FF 50%, #00E5FF 100%); 
   -webkit-mask: 
   linear-gradient(#fff 0 0) content-box, 
   linear-gradient(#fff 0 0);

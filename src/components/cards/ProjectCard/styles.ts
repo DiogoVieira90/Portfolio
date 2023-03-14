@@ -7,6 +7,7 @@ interface cardProps {
 
 export const Container = styled.div<cardProps>`
   position: relative;
+  max-height: 260px;
   border: 2px solid #1E1E1E;
   border-radius: 8px;
   transition: all .2s ease-in-out;
@@ -20,7 +21,7 @@ export const Container = styled.div<cardProps>`
 export const CardInfo = styled.div`
 position: absolute;
 width: 100%;
-height: 100%;
+height: 260px;
 display: flex;
 flex-direction: column;
 gap: 4rem;
