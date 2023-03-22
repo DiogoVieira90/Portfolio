@@ -4,8 +4,7 @@ import { Separator } from "../../Separator";
 import { FilterButton, FilterContainer, ProjectsContainer, SectionProjectsContainer } from "./styles";
 
 import defaultImage from '../../../assets/p1.webp'
-import { createContext, useCallback, useEffect, useState } from "react";
-import { Filter } from "../../Filter";
+import { useEffect, useState } from "react";
 import { BsFillStarFill } from "react-icons/bs";
 
 interface ReposProps {
